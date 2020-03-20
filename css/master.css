@@ -1,0 +1,171 @@
+body {
+  background: #FFF4E3;
+  position: relative;
+}
+
+section {
+  min-height: 98vh;
+  border-bottom: 1px solid white;
+}
+
+header h1{
+  margin-left: 30px;
+  margin-top: 50px;
+  padding-top: 40px;
+  text-align : center;
+  font-size: 80px;
+}
+
+h1 {
+  margin-left: 30px;
+}
+
+header {
+  margin-left: 50px;
+}
+
+
+/*nav ul{
+  display: flex;
+  justify-content: space-evently;
+}*/
+
+#mainmenu{
+  background-color: white;
+  width: 300px;
+  position: absolute;
+  top: 0;
+  z-index: 999;
+  left: -300px;
+  height: 100%;
+  transition: 2s all ease;
+}
+
+#mainmenu:target {
+  left: 0;
+}
+
+#mainmenu ul a {
+display: flex;
+align-items: center;
+justify-content: left;
+color: white;
+background:  #F94E4E;
+padding: 1em;
+margin-bottom: 1px;
+}
+
+.menu-close{
+  display: block;
+  align-items: center;
+  justify-content: center;
+  background: #000;
+  width: 40px;
+  height: 40px;
+  color: #fff;
+  font-size: 2em;
+  text-decoration: none;
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+
+.toggle-menu{
+  border: 1px solid #000;
+  padding: 1em;
+}
+
+
+#mainmenu:target + .backdrop {
+  display: block;
+  background-color: rgba(255, 221, 9, 0,9)  ;
+  position: static;
+  top:0;
+  left: 0;
+  z-index: 998;
+  width: 100%;
+  height: 100%;
+}
+
+@media (min-width:640px) {
+  #mainmenu{
+      position: static;
+      width: 100%;
+      background: transparent;
+    }
+#mainmenu ul {
+  display: flex;`
+  justify-content: space-around;
+  width: 100%;`
+}
+
+#main-menu ul a {
+  color: #000;
+}
+
+.toggle-menu{
+  display: none;
+}
+
+.menu-close {
+  display: none;
+}
+
+#project {
+  margin-left: 30px;
+  margin-top: 50px;
+}
+
+.project-feature-content {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+
+.project-feature {
+  border: 1px solid white;
+  marging : 1em;
+  padding: 1em;
+  flex-basis: 320px;
+  flex-grow: 1;
+  flex-shrink: 1;
+}
+
+#photo {
+  margin-left: 30px;
+  margin-top: 50px;
+}
+
+.photo-feature-content {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+
+.photo-feature{
+  border: 1px solid white;
+  marging : 1em;
+  padding: 1em;
+  flex-grow: 1;
+}
+
+.about {
+  margin-left: 30px;
+  margin-top: 50px;
+
+}
+#about {
+    background: #F94E4E;
+
+}
+
+#contact {
+  margin-left: 30px;
+  margin-top: 50px;
+}
+
+.infocontact {
+  margin-left: 30px;
+  display-flex: flex;
+  font-size: 20px;
+}

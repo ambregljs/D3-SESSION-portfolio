@@ -1,0 +1,34 @@
+@import url('https://fonts.googleapis.com/css?family=Wire+One&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Nixie+One&display=swap');
+body {
+  font-family: sans-serif;
+}
+
+h1 {
+  font-size: 5em;
+  margin-bottom: 1.5em;
+  font-family: 'Wire One', sans-serif;
+  color: black;
+  color: #003EFD;
+}
+
+h2{
+  font-size: 1.5em;
+  margin-bottom: 1em;
+
+}
+
+ul {
+  font-family: 'Nixie One', cursive;
+}
+
+footer{
+  text-align: center;
+  font-size: 3em;
+  font-family: 'Wire One', sans-serif;
+  color: #F94E4E;
+}
+
+#contact {
+  font-family: 'Playfair Display', serif;
+  }
