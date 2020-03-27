@@ -13,7 +13,7 @@ header h1{
   margin-top: 50px;
   padding-top: 40px;
   text-align : center;
-  font-size: 80px;
+  font-size: 130px;
 }
 
 h1 {
@@ -111,6 +111,12 @@ margin-bottom: 1px;
   display: none;
 }
 
+.img{
+  width: 50%;
+  height: 500Px;
+  object-fit: cover;
+}
+
 #project {
   margin-left: 30px;
   margin-top: 50px;
@@ -166,6 +172,7 @@ margin-bottom: 1px;
 
 .infocontact {
   margin-left: 30px;
+  margin-top: 100px;
   display-flex: flex;
   font-size: 20px;
 }
