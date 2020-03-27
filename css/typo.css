@@ -4,16 +4,20 @@ body {
   font-family: sans-serif;
 }
 
+header h1{
+  font-family: 'Nixie One', cursive;
+}
+
 h1 {
-  font-size: 5em;
-  margin-bottom: 1.5em;
+  font-size: 7em;
+  margin-bottom: 1em;
   font-family: 'Wire One', sans-serif;
   color: black;
   color: #003EFD;
 }
 
 h2{
-  font-size: 1.5em;
+  font-size: 2em;
   margin-bottom: 1em;
 
 }
@@ -31,4 +35,6 @@ footer{
 
 #contact {
   font-family: 'Playfair Display', serif;
+  font-size: 1,5em;
+  text-align: center;
   }
