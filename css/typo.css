@@ -19,6 +19,8 @@ h1 {
 h2{
   font-size: 2em;
   margin-bottom: 1em;
+  color: #F94E4E;
+
 
 }
 
@@ -34,7 +36,6 @@ footer{
 }
 
 #contact {
-  font-family: 'Playfair Display', serif;
   font-size: 1,5em;
   text-align: center;
   }
